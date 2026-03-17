@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Cancel Test</title>
+  <style>
+    body {
+      font-family: -apple-system, Helvetica, sans-serif;
+      max-width: 400px;
+      margin: 60px auto;
+      padding: 0 24px;
+      text-align: center;
+    }
+    h2 { color: #333; }
+    p  { color: #666; font-size: 14px; line-height: 1.6; }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 16px;
+      margin-top: 32px;
+      background: #d93025;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 17px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    code {
+      display: block;
+      margin-top: 24px;
+      background: #f5f5f5;
+      padding: 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      word-break: break-all;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <h2>Cancel Button Test</h2>
+  <p>Tap the button below. It should close this browser and return you to the app login screen.</p>
+
+  <button class="btn" onclick="window.location.href='za.co.healthip.mobile.bestmedmember.qa://cancel';">
+    Cancel — Return to App
+  </button>
+
+  <code>window.location.href = 'za.co.healthip.mobile.bestmedmember.qa://cancel';</code>
+</body>
+</html>
